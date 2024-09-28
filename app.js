@@ -1,18 +1,19 @@
 // Modules keep their data(variables, functions, methods) private so that they don't get leaked out.
 // When you give require of module then the module gets executed but the data in module doesn't get exposed.
-
 // While requiring (require('./init.js')) if you don't give .js also it will work fine because it will automatically treat it as .js file
 
 // import { calculateSum } from "./calculate/sum.js";
-
 // const x = require('./init')
-// 
+
 const { calculateSum } = require('./calculate/sum')
 
 // const { calculateMultiply } = require('./calculate/multiply')
-
 // const { calculateSum, calculateMultiply } = require('./calculate')
 
+const data = require('./data.json')
+console.log("🚀 ~ data:", data)
+
+console.log('Stringify data', JSON.stringify(data))
 
 
 let name = "Jahnavi";

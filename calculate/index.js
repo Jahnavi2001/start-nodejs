@@ -1,10 +1,8 @@
+const { calculateSum } = require("./sum");
 
-const { calculateSum } = require('./sum')
-
-const { calculateMultiply } = require('./multiply')
-
+const { calculateMultiply } = require("./multiply");
 
 module.exports = {
   calculateSum,
-  calculateMultiply
-}
+  calculateMultiply,
+};
