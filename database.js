@@ -59,19 +59,19 @@ async function main() {
     .toArray();
   console.log("Found Filter Name Result ==>", findFilterNameResult);
 
-  // ----------- Update lastname of a one record -------------------
+  // ----------- Update lastname of one record -------------------
   // const updateOneResult = await collection.updateOne(
   //   { firstName: "Jahnavi" },
   //   { $set: { lastName: "Vuyyuru Update" } }
   // );
   // console.log("updateOneResult:", updateOneResult);
 
-  // ----------- Update lastname of a multiple records -------------------
+  // ----------- Update lastname of multiple records -------------------
   // const updateManyResult = await collection.updateMany(
   //   { firstName: "Aparna" },
   //   { $set: { lastName: "Vuyyuru Update Many" } }
   // );
-  // console.log("updateOneResult:", updateManyResult);
+  // console.log("updateManyResult:", updateManyResult);
 
   // ---------- Delete one record ----------------
   // const deleteOneResult = await collection.deleteOne({firstName: 'James'})
